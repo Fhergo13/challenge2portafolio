@@ -1,0 +1,100 @@
+.hobbies{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.hobbies__title{
+    margin-left: 37rem;
+    font-weight: bold;
+    font-size: 25px;
+}
+.hobbies__box{
+    display: inline-flex;
+    flex-direction: row;
+    padding:2rem;
+    box-sizing: content-box;
+    border: 0;
+    margin-left: 1rem;
+    background: white; 
+    width: fit-content;
+
+}
+
+@media screen and (min-width: 0){
+    .hobbies__box{
+        flex: 0 0 15.6rem;
+        width: 6.6rem;
+        height: 8.8rem;
+        margin-left: 1rem;
+        margin-right: -2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hobbies__box{
+        flex: 0 0 22.4rem;
+        width: 22.4rem;
+        height: 11.8rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .hobbies__box{
+        flex: 0 0 17.6rem;
+        width: 17.6rem;
+        height: 17.4rem;
+    }
+}
+
+@media screen and (min-width: 0){
+    .hobbies__line{
+        gap: 1.6rem;
+        padding-left: 0.6rem;
+        padding-right: 1.6rem;
+        margin-left: -2rem;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hobbies__line{
+        gap: 1.6rem;
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .hobbies__line{
+        gap: 1.6rem;
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .hobbies__line{
+        gap: 1.6rem;
+        padding-left: 15.2rem;
+        padding-right: 15.2rem; 
+    }
+}
+
+@media screen and (min-width: 0){
+    .hobbies__title{
+        gap: 1.6rem;
+        padding-left: 0.6rem;
+        padding-right: 1.6rem;
+        margin-left:7rem;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hobbies__title{
+        gap: 1.6rem;
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+        justify-content: space-around;
+    }}

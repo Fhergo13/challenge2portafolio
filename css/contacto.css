@@ -1,0 +1,146 @@
+
+.formcontato--esquerda{
+    background-color: aliceblue;
+    margin-top:17rem;
+}
+
+.formcontato{
+    background-color: aliceblue;
+    height: 40rem;
+    margin-top:-50rem;
+    margin-left: -17rem;
+}
+.formcontato__title{
+    display:flex;
+    margin-left: 20rem;
+    padding-top: 1.5rem;
+    font-size: 30px;
+}
+.formcontato__contacto{
+    margin-top:58rem;
+    margin-left: -15rem;
+    margin-right: 14rem;
+}
+.formcontato__img{
+  margin-top:2rem;
+  margin-left:3rem;
+}
+.formcontato__text{
+    margin-left: 35rem;
+    margin-top: -36rem;
+    margin-right:4rem;
+}
+.formcontato__form{
+  display: flex;
+  flex-direction: column;
+  margin-top:1rem;
+}
+.formcontato__input{
+    padding-top:1rem;
+    margin-bottom:2rem;
+    padding-right: 16rem;
+    padding-bottom: 1rem;
+}
+.formcontato__boton{
+    margin-top:1rem;
+    padding: 1rem;
+    margin-right: 50rem;
+    background-color: #2A7AE4;
+    color:white;
+}
+.formcontato__textarea{
+    width: 28rem;
+    margin-right: 3%;
+}
+.formcontato__label{
+    margin-right:69rem;
+    padding: 1rem;
+}
+@media screen and (min-width: 0) {
+    .formcontato {
+        margin-top: -54rem;
+        padding: inherit;
+        margin-left:-34rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formcontato {
+        padding: 3.2rem;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .formcontato {
+        padding: 12.95rem 15.2rem 6.55rem 15.2rem;
+    }
+}
+@media screen and (min-width:0px) {
+    .formcontato__title{
+        margin-left:3rem;
+    }
+}
+@media screen and (min-width:0px) {
+    .formcontato__img {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .formcontato__img  {
+        display: flex;
+    }
+}
+@media screen and (min-width:0){
+    .formcontato__form {
+        min-width: 296px;
+        width: auto;
+        gap: -1.8rem;
+        margin-right:-43rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .formcontato__form {
+        width: auto;
+        height: 573px;
+        gap: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .formcontato__form {
+        gap: 3.2rem;
+        width: auto;
+        height: 596px;
+    }
+}
+@media screen and (min-width: 0px){
+    .formcontato__contacto {
+        margin-inline-start: 1.6rem;
+        margin-inline-end: 1.6rem;
+        /* margin-inline-end: 3.2rem; */
+    }
+}
+
+
+@media screen and (min-width: 1400px){
+    .formcontato__contacto {
+        gap: 1.6rem;
+
+    }
+}
+
+@media screen and (min-width: 0) {
+    .formcontato__input {
+       padding-right:10rem;
+    }
+}
+@media screen and (min-width: 0) {
+    .formcontato__textarea {
+        width: 21rem;
+        margin-right: -16rem;
+    }
+}
+

@@ -1,0 +1,196 @@
+.title__profile{
+    margin-left: 55rem;
+    padding: 0%;
+}
+
+
+
+.title__container{
+
+  margin-top: -17rem;
+   
+}
+
+.title__bio{
+    margin-right: 35rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title__subsection{
+    margin-left: 2rem;
+    margin-right: 33rem;
+}
+
+.title__network__item{
+   display:inline;
+   flex-direction: row;
+   margin-left: 1rem;
+}
+
+
+@media screen and (min-width:0px) {
+    .title  {
+     margin-inline-start: 1.2rem;
+     margin-inline-end: 1.2rem;
+     margin-block-start: 5.85rem;
+ }
+}
+
+@media screen and (min-width:768px) {
+     .title  {
+     margin-inline-start: 3.2rem;
+     margin-inline-end: 3.2rem; 
+     margin-block-start: 3.45rem;
+
+ }
+}
+
+@media screen and (min-width:1080px) {
+   .title  {
+     margin-inline-start: 3.2rem;
+     margin-inline-end: 3.2rem;
+     margin-block-start: 6.65rem;
+
+     padding-bottom: 6.4rem;
+ }
+}
+
+
+@media screen and (min-width:1440px) {
+    .title  {
+     margin-inline-start: 15.2rem;
+     margin-inline-end: 15.2rem; 
+     margin-block-start: 6.65rem;
+
+ }
+ }
+    @media screen and (min-width:0px) {
+        .title__profile {
+            width: 9.8rem;
+            height: 9.8rem;
+            margin-inline-start: 1.6rem;
+            margin-block-end: 17.6rem;
+            
+        }
+    }
+    
+    @media screen and (min-width:768px) {
+        .title__profile {
+            width: 14.6rem;
+            height: 1.6rem;
+           
+        }
+    }
+    
+    @media screen and (min-width:1080px) {
+        .title__profile {
+            width: 36.8rem;
+            height: 36.8rem;
+        }
+    }
+    
+    @media screen and (min-width:1440px) {
+        .title__profile {
+            width: 36.8rem;
+            height: 36.8rem;
+        }
+    }
+    @media screen and (min-width:0px) {
+        .title__bio {
+            font-size: 2.2rem;
+            font-weight: 700;
+            line-height: 2rem;
+            margin-right: 1rem;
+    }
+}
+    
+    @media screen and (min-width:768px) {
+        .title__bio {
+            font-size: 2.2rem;
+            font-weight: 700;
+            line-height: 2rem;
+            margin-right: 1rem;
+        }
+    }
+    
+    @media screen and (min-width:1080px) {
+        .title__bio {
+            font-weight: 700;
+            font-size: 2.2rem;
+            line-height: 26px;
+        }
+    }
+    
+    @media screen and (min-width:1440px) {
+        .title__bio {
+            font-size: 5.2rem;
+            font-weight: 700;
+            line-height: 6.1rem;
+        }
+    }
+
+    @media screen and (min-width:0px) {
+        .title__subsection {
+            font-size: 1.4rem;
+            line-height: 1.644rem;
+            font-weight: 400;
+            padding-top: 1.6rem;
+            padding-bottom: 1.6rem;
+            margin-right:1rem;
+        }
+    }
+    
+    @media screen and (min-width:768px) {
+        .title__subsection {
+            font-size: 1.6rem;
+            padding-top: 0.8rem;
+            padding-bottom: 1.5rem;
+            line-height: 1.878rem;
+            margin-right:1rem;
+        }
+    }
+    
+    @media screen and (min-width:1080px) {
+        .title__subsection {
+            font-size: 2.2rem;
+            padding-top: 2.4rem;
+            padding-bottom: 2.65rem;
+        }
+    }
+    
+    @media screen and (min-width:1440px) {
+        .title__subsection {
+            font-size: 2.2rem;
+            padding-top: 2.4rem;
+            line-height: 2.6rem;
+        }
+    }
+    @media screen and (min-width:0) {
+        .title__network {
+            margin-block-end: -1.4rem;
+            margin-right: -3rem;
+            margin-left: -4rem;
+        }
+    }
+    @media screen and (min-width:768px) {
+        .title__network {
+            margin-bottom: 4.25rem;
+        }
+    }
+    
+    @media screen and (min-width:1080px) {
+        .title__network {
+            margin-bottom: 9.55rem;
+        }
+    
+    }
+    
+    @media screen and (min-width:1440) {
+        .title__network {
+            margin-bottom: 9.55rem;
+    
+        }
+    }
+    
